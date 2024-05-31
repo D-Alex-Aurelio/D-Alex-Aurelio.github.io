@@ -1,0 +1,121 @@
+
+</html><!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Electrical Consumption Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="../index.html" class="logo"><strong>Personal Website</strong> by Daniel Alexander Aurelio</a>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Electrical Consumption Analysis</h1>
+									</header>
+
+									<span class="image main"><img src="../images/pic11.jpg" alt="" /></span>
+
+									<p>The data set retrieved for this analysis was from the website of Maven Analytics. The data set has a total of 52,416 rows and 9 columns. The electrical consumption was obtained in intervals of ten minutes. Factors such as temperature, humidity, windspeed, and the gas emissions in the atmosphere.</p>
+
+									<hr class="major" />
+
+									<h2>Comparison of Power Zones</h2>
+									<p>There are three zones considered in the electrical consumption data set. We shall label them Zone 1, Zone 2, and Zone 3. One parameter that we can use to compare the three zones is the distribution of power consumption values using a histogram.</p>
+
+									<img src="../images/electrical_consumption_analysis/PC per zone.png" alt="Distribution of Power Consumption per Zone">
+
+									<p> From the histogram above, it is shown that Zone 1 has a lot of high power consumption values as compared to the other two zones. The next highest zone is Zone 2 followed by Zone 3. The distributions of the three zones are also different from each other. Zone 2 has one main peak around the 20,000 kWh mark with smaller peaks surrounding it. Zone 1 has a main peak around 32,500 kWh and another large peak around 22,500 kWh. Lastly, Zone 3 has a distribution that is skewed to the right with a rather tall peak compared to the other two zones.
+
+									<img src="../images/electrical_consumption_analysis/PC per zone sep.png" alt="Distribution of Power Consumption per Zone, Separated">
+
+									<p> Due to the skewed nature of the distribution of Zone 3, it is more applicable to use the median as the measure of central tendency. This is due to the mean being influenced by outliers as seen in the gap created between the mean and median in the plot of Zone 3. Another parameter to look into is that Zone 1 has the mean and median to be closest to each other despite having another large peak.</p>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+							<nav id="menu">
+								<header class="major">
+									<h2>Menu</h2>
+								</header>
+								<ul>
+									<li><a href="../index.html">Homepage</a></li>
+									<li>
+										<span class="opener">Data Analysis Porfolio</span>
+										<ul>
+											<li><a href="../data_analysis_portolio/electrical_consumption_analysis.html">Electrical Consumption</a></li>
+											<li><a href="../data_analysis_portolio/lego_sets_analysis.html">Lego Sets</a></li>
+										</ul>
+							</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+										<li class="icon solid fa-phone">(000) 000-0000</li>
+										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
