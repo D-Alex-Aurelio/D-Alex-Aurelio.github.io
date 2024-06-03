@@ -48,7 +48,7 @@
 									<h2>1. Inspection of Data Set</h2>
 									<h4>Table 1.1 Number of Rows and Columns</h4>
 									<div class="table-wrapper">
-										<table class="alt", >
+										<table class="", >
 											<thead>
 											</thead>
 											<tbody>
@@ -127,9 +127,78 @@
 									<hr class="major" />
 
 									<h2>2. Finding the Maximum and Minimum values in the Data Set.</h2>
+									<h4>Table 2.1 Minimum and Maximum Power Consumption with Range</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Parameter</th>
+													<th>Value</th>
+													<th>Zone</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Minimum Power Consumption</td>
+													<td>5,935 kWh</td>
+													<td> Zone 3</td>
+												</tr>
+												<tr>
+													<td>Maximum Power Consumption</td>
+													<td>52,204 kWh</td>
+													<td> Zone 1</td>
+												</tr>
+											<tfoot>
+												<tr>
+													<td>Range</td>
+													<td colspan="2">46,269 kWh</td>
+												</tr>
+											</tbody>
+											</tfoot>
+										</table>
+									</div>
+									<p>According to the table above, the zone that consumed the least electrical power is Zone 3 with a power consumption of 5,935 kWh. On the other hand, the most power consumed is 52,204 kWh and it was from Zone 1. Using the values of the maximum and minimum values, one can get the range of the values for the three zones which is 46,269 kWh.
+									</p>
 
+									<hr class="major" />
 
+									<h2>3. Measures of Central Tendency</h2>
+									<h4>Table 3.1 Mean and Median of Power Consumption</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Parameter</th>
+													<th>Value</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Mean Power Consumption</td>
+													<td>23,741 kWh</td>
+												</tr>
+												<tr>
+													<td>Median Power Consumption</td>
+													<td>22,678 kWh</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td>Difference</td>
+													<td>1,603 kWh</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+									<p>Mean and Median are normally used to refer to the "middle point" of a dataset. One can see that the values of the two parameters are not equal with a difference of 1,603 kWh. With two unique values, which one will I use to refer to the middle point?</p>
 
+									<p>The mean of a dataset is obtained through the magnitudes of the values so it is affected by outliers. This explains why the mean is not a good indicator of the middle point of a data set if the data is skewed. Using a histogram can help in visualizing whether the data given is skewed or not. </p>
+
+									<span class="image fit">
+										<img src="../images/electrical_consumption_analysis/Distribution_PowerConsumption.png" alt="Distribution of Power Consumptin Values">
+									</span>
+									
+									<p>From the distribution plot above, one can see that the data is skewed to the right. Following this observation, the mean is not a good reference point of the center of the dataset. In these situations, the median is much better fit for the center.</p>
 						</div>
 					</div>
 
