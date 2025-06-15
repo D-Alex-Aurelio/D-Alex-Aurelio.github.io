@@ -30,30 +30,24 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Analysis 1</h1>
+										<h1>Rainfall Depth Analysis</h1>
 									</header>
 									
 									<!-- Box -->									
 									<div class="box">
 										<h3>Objectives</h3>
-										<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum.</p>
-										<ul>
-											<li>Fusce non massa vitae dui pharetra iaculis vitae at velit.</li>
-											<li>Etiam ultricies magna nec tortor laoreet, sodales hendrerit nibh gravida.</li>
-										</ul>
+										<p>This analysis aims to analyze the trends and statistics for rainfall depth in the Port Area of Metro Manila, Philippines, from 2000 to 2019 (<em>20 years</em>).</p>
+										
 									</div>
 
 									<!-- Box -->									
 									<div class="box">
 										<h3>Key Findings</h3>
 										<ul>
-											<li>Nunc ut libero ut lectus faucibus ornare quis non nulla.</li>
-											<li>Fusce gravida magna eu velit tincidunt, ac fringilla metus hendrerit.</li>
-										</ul>
-										<h3>Recommendations</h3>
-										<ul>
-											<li>Suspendisse vel elit eleifend, tincidunt ex nec, aliquet lacus.</li>
-											<li>Aliquam ultricies dui vitae felis varius, vitae laoreet metus pellentesque.</li>
+											<li>The <strong>highest annual rainfall depth</strong> occurred in <strong>2012</strong>, while the <strong>lowest</strong> occurred in <strong>2004</strong>.</li>
+											<li>The <strong>highest recorded monthly rainfall</strong> occurred in <strong>July 2002</strong>, showcasing a <em>notable weather event</em>.</li>
+											<li>Most of the <strong>monthly rainfall</strong> happens between <strong>May</strong> and <strong>October</strong>.</li>									
+											<li>The <strong>majority of daily rainfall</strong> can be classified as <strong>heavy rainfall</strong> (<em>50 mm to 100 mm</em>).</li>									
 										</ul>
 									</div>
 
@@ -61,26 +55,90 @@
 									<div class="box">
 										<h3>Approach</h3>
 										<ol>
-											<li>Suspendisse dictum diam at tellus iaculis, ut aliquet lorem iaculis.</li>
-											<li>Aenean lacinia risus at vehicula dapibus.</li>
-											<li>Phasellus ut turpis at justo dapibus hendrerit ac vel sapien.</li>
-											<li>Sed pellentesque quam nec libero tincidunt, in blandit lorem vulputate.</li>
-										</ol>										
+											<li>For <strong>data gathering</strong>, I obtained the rainfall data from PAGASA, the government agency responsible for weather monitoring in the Philippines.</li>
+											<li>Python programming was used for <strong>data manipulation</strong> and <strong>data visualization</strong>.</li>
+											<li>The <strong>missing values</strong> of the dataset was equated to <strong>zero</strong>.</li>
+											<li><strong>A bar plot</strong> was used to plot annual rainfall depth to showcase the difference of depth starting from 0 millimeters.</li>
+											<li>ChatGPT was used for the <strong>classification of rainfall depth</strong> due to lack of information.</li>
+											
+										<ol>										
 									</div>
 
 									<hr class="major" />
 
-									<h2>Section 1</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet felis et elit porta, sed viverra purus accumsan. Etiam semper ultricies erat, sed placerat velit malesuada eu. Nulla et sem a quam euismod posuere. Etiam porttitor, quam sit amet scelerisque vestibulum, lectus mauris maximus felis, eu vehicula est lectus id nisi. Aenean sed vestibulum sem. Nunc id nisi sed sapien venenatis finibus. Mauris at enim libero. Etiam in tempus sem, consectetur facilisis purus. Vestibulum ut lacus quis quam commodo ultricies vitae vitae metus. Vestibulum ac enim sagittis, condimentum tortor eget, bibendum lorem.</p>
+									<h2>1. Annual Rainfall Depth</h2>
+									<p>Plotting the annual rainfall depth can be helpful as it gives an overview of the rainfall depth data. It can show which years have a lot of rainfall and which do not. A bar plot is a typical plot used to visualize rainfall depth. The bar plot below shows that 2012 had the highest rainfall depth. On the other hand, 2004 had the lowest rainfall depth, with 2005 being close. The median is used in this analysis to prevent the effect of outliers. From the plot, the median value of the annual rainfall depth is about 2.10 millimeters. Another observation is that the lowest rainfall depth value is closer to the median than the highest rainfall depth value..</p>
+
+									<span class="image fit">
+										<img src="..\images\analysis1_img\annual_rainfall.png" alt="Annual Rainfall Depth">
+									</span>
 
 									<hr class="major" />
 
-									<h2>Section 2</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique mollis justo vel ultrices. Integer laoreet mollis purus id pretium. Morbi libero nisi, pretium eget lacus id, egestas finibus metus. Praesent interdum, est in porttitor laoreet, arcu tortor venenatis felis, sed elementum odio risus ac ligula. Etiam sed ligula dui. Phasellus pharetra aliquam dui, in placerat libero viverra at. Cras tincidunt turpis eu nunc dapibus malesuada. Aliquam erat volutpat.</p>
-
-									<p>Cras vehicula, sem sit amet porta aliquet, odio nisl hendrerit diam, nec scelerisque lorem elit sit amet ex. Donec quam erat, luctus in velit at, vehicula volutpat magna. Nullam nec ex in diam finibus hendrerit. Donec luctus libero ac gravida sodales. Sed eu dapibus dolor. Curabitur quis lacus luctus, facilisis nisl in, imperdiet elit. Proin tristique auctor ipsum, sit amet lacinia mauris feugiat sit amet. Phasellus eu lobortis nulla.</p>
-
+									<h2>2. Monthly Rainfall Depth</h2>
+									<p>A heatmap was used for the monthly rainfall depth, with the X and Y axes being the year and month, respectively. The color represents the rainfall depth, with a darker shade corresponding to a greater rainfall depth. </p>
 									
+									<span class="image fit">
+										<img src="..\images\analysis1_img\monthly_rainfall.png" alt="Monthly Rainfall Depth">
+									</span>
+
+									<p>Based on the heatmap, one can see that the July of 2002 holds the darkest color which means that the month holds the highest monthly rainfall depth. Another observation from the plot is that the majority of the darker shades occur between May and October.</p>
+
+									<hr class="major" />
+
+									<h2>3. Daily Rainfall Depth</h2>
+									<p>Plotting the daily rainfall depth shows that the values are erratic so there no trend to follow. </p>
+
+									<span class="image fit">
+										<img src="..\images\analysis1_img\daily_rainfall.png" alt="Daily Rainfall Depth">
+									</span>
+
+									<p>Another way to analyze daily rainfall data is to classify the rainfall depth into groups. The table below shows the classification of rainfall depth data according to ChatGPT. From the table, one can see that the highest rainfall count is from the "Heavy Rainfall" classification. Another observation is that there were 4,373 days without rainfall between 2000 to 2019.</p>
+
+									<h4>Table 3.1 Daily Rainfall Classification</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Classification</th>
+													<th>Interval</th>
+													<th>Count</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>No Rainfall</td>
+													<td>0 mm</td>
+													<td>4383</td>
+												</tr>
+												<tr>
+													<td>Light Rainfall</td>
+													<td>0.10 mm - 2.49 mm</td>
+													<td>876</td>
+												</tr>
+												<tr>
+													<td>Moderate Rainfall</td>
+													<td>2.50 mm - 7.59 mm</td>
+													<td>697</td>
+												</tr>
+												<tr>
+													<td>Heavy Rainfall</td>
+													<td>7.60 mm - 49.99 mm</td>
+													<td>1128</td>
+												</tr>
+												<tr>
+													<td>Very Heavy Rainfall</td>
+													<td>50.00 mm - 99.99 mm</td>
+													<td>169</td>
+												</tr>
+												<tr>
+													<td>Extreme Rainfall</td>
+													<td>100 mm or more</td>
+													<td>52</td>
+												</tr>
+											</tbody>							
+										</table>
+									</div>
 						</div>
 					</div>
 
