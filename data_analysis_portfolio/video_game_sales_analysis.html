@@ -43,13 +43,9 @@
 									<div class="box">
 										<h3>Key Findings</h3>
 										<ul>
-											<li>Nunc ut libero ut lectus faucibus ornare quis non nulla.</li>
-											<li>Fusce gravida magna eu velit tincidunt, ac fringilla metus hendrerit.</li>
-										</ul>
-										<h3>Recommendations</h3>
-										<ul>
-											<li>Suspendisse vel elit eleifend, tincidunt ex nec, aliquet lacus.</li>
-											<li>Aliquam ultricies dui vitae felis varius, vitae laoreet metus pellentesque.</li>
+											<li>PS3 had the most variety of games sold the most with  <em>42 game titles sold</em>, while the Wii had the least variety of games sold with <em>1 game title sold</em>.</li>
+											<li>Shooter games on the X360 generated the most total sales.</li>
+											<li>Adventure games on the PS3 received the highest average critic score.</li>
 										</ul>
 									</div>
 
@@ -57,26 +53,43 @@
 									<div class="box">
 										<h3>Approach</h3>
 										<ol>
-											<li>Suspendisse dictum diam at tellus iaculis, ut aliquet lorem iaculis.</li>
-											<li>Aenean lacinia risus at vehicula dapibus.</li>
-											<li>Phasellus ut turpis at justo dapibus hendrerit ac vel sapien.</li>
-											<li>Sed pellentesque quam nec libero tincidunt, in blandit lorem vulputate.</li>
-										</ol>										
+											<li>Obtained the data from  
+												<a href="https://mavenanalytics.io/data-playground"> Maven Analytics - Data Playground</a>
+											</li>
+											<li>Removed unneeded columns from the data set.</li>
+											<li>Filtered the data to focus on games for the PS3, Wii, and X360.</li>
+											<li>A heatmap was used to analyze the total sales and critic scores per console-genre pair.</li>
+										<ol>									
 									</div>
 
 									<hr class="major" />
 
-									<h2>Section 1</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet felis et elit porta, sed viverra purus accumsan. Etiam semper ultricies erat, sed placerat velit malesuada eu. Nulla et sem a quam euismod posuere. Etiam porttitor, quam sit amet scelerisque vestibulum, lectus mauris maximus felis, eu vehicula est lectus id nisi. Aenean sed vestibulum sem. Nunc id nisi sed sapien venenatis finibus. Mauris at enim libero. Etiam in tempus sem, consectetur facilisis purus. Vestibulum ut lacus quis quam commodo ultricies vitae vitae metus. Vestibulum ac enim sagittis, condimentum tortor eget, bibendum lorem.</p>
+									<h2>1. Game Titles Sold per Console</h2>
+									<p>The count of game titles for each console are shown below. From the bar plot, PS3 had the most variety of games sold the most with 42 game titles sold while the Wii only had one game title sold.</p>
+
+									<span class="image fit">
+										<img src="..\images\video_game_sales_analysis_img\count_of_sales.png" alt="Count of Sales">
+									</span>
 
 									<hr class="major" />
 
-									<h2>Section 2</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique mollis justo vel ultrices. Integer laoreet mollis purus id pretium. Morbi libero nisi, pretium eget lacus id, egestas finibus metus. Praesent interdum, est in porttitor laoreet, arcu tortor venenatis felis, sed elementum odio risus ac ligula. Etiam sed ligula dui. Phasellus pharetra aliquam dui, in placerat libero viverra at. Cras tincidunt turpis eu nunc dapibus malesuada. Aliquam erat volutpat.</p>
+									<h2>2. Sum of Total Sales and Average Critic Scores</h2>
+									<p>Total sales and critic scores are shown below. Shooter games are popular with having 37 million and 47 million total sales for PS3 and X360, respectively.</p>
 
-									<p>Cras vehicula, sem sit amet porta aliquet, odio nisl hendrerit diam, nec scelerisque lorem elit sit amet ex. Donec quam erat, luctus in velit at, vehicula volutpat magna. Nullam nec ex in diam finibus hendrerit. Donec luctus libero ac gravida sodales. Sed eu dapibus dolor. Curabitur quis lacus luctus, facilisis nisl in, imperdiet elit. Proin tristique auctor ipsum, sit amet lacinia mauris feugiat sit amet. Phasellus eu lobortis nulla.</p>
+									<span class="image fit">
+										<img src="..\images\video_game_sales_analysis_img\total_sales_and_critic_score.png" alt="Total Sales and Critic Score">
+									</span>
 
-									
+									<p>Despite not having the most sales, the adventure games of PS3 had the highest average critic score. </p>
+
+									<hr class="major" />
+
+									<h2>3. Sum of Total Sales vs Average Critic Scores</h2>
+									<p>To show the relationship between critic score and total sales, a scatter plot was used. As shown in the plot below, higher critic scores is related to higher total sales per console.</p>
+
+									<span class="image fit">
+										<img src="..\images\video_game_sales_analysis_img\total_sales_vs_critic_score.png" alt="Total Sales and Critic Score">
+									</span>
 						</div>
 					</div>
 
